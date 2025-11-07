@@ -1,0 +1,17 @@
+:root{--pink:#ff6b6b;--mint:#78e08f;--sun:#ffb347}
+*{box-sizing:border-box}
+body{font-family:Inter,Arial,Helvetica,sans-serif;background:linear-gradient(135deg,#fff5f7,#f0fff4);margin:0}
+.container{max-width:1000px;margin:24px auto;background:#fff;border-radius:12px;padding:14px;box-shadow:0 6px 20px rgba(2,6,23,0.06)}
+.header{display:flex;align-items:center;gap:12px}
+.logo{width:72px;border-radius:10px}
+h1{color:var(--pink);margin:0}
+.subtitle{font-size:13px;color:#666}
+.main{display:flex;gap:16px;margin-top:12px}
+.left{flex:1}
+.right{width:320px}
+.card{background:#fff;border-radius:10px;padding:12px;margin-bottom:12px;box-shadow:0 4px 10px rgba(2,6,23,0.04)}
+.pointsBlock{font-size:28px;font-weight:700;margin-top:6px}
+.progressBar{height:12px;background:#eee;border-radius:10px;overflow:hidden;margin-top:6px}
+.progressFill{height:100%;background:linear-gradient(90deg,var(--pink),var(--sun),var(--mint));width:20%}
+.small{background:#fff;border:1px solid #eee;padding:6px 8px;border-radius:8px;cursor:pointer}
+.footer{text-align:center;font-size:13px;color:#666;margin-top:12px}
